@@ -42,6 +42,7 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.textoFrase} >Biscoito da Sorte</Text>
+        vi
         <Image source={this.state.img} style={styles.img} />
 
         <Text style={styles.textoFrase}>{this.state.frase}</Text>
